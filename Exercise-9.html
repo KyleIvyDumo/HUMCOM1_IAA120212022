@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Kyle Ivy S. Dumo" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+        <title>Kyle Ivy S. Dumo - Exercise 9</title>
+    </head>
+    <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 2; color: #f8bc24; background-color: #051821;"> 
+    <center>
+    <h1 style= "background-color: #1a4645;font-family: 'Holtwood One SC';font-size: 55px; font-size: 60px; color:#ff9c24;">VOLUNTEER REGISTRATION</h1>
+    <h2 style= "color:#ff9c24;line-height: 0.1;font-family: 'Kaushan Script';font-size: 30px;">"Start where you are. Use what you have. Do what you can." - Aurthur Ashe</h2>
+    </center> 
+    <hr>
+    <p style="font-size: 20px;">Field marked with (*) are required to be answered</p>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend><h2 style="line-height: 0.1">Personal Details</h2></legend>
+            <label for="fname">First Name*</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name*</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+            <label for="bday">Birthday*</label>
+            <input type="date" id="bday" name="birthday"><br>
+            <label for="age">Age* </label>
+            <input type="number" id="age" name="Age" min="0" max="100"><br>
+            <label for="gender">Gender*</label>
+            <input type="radio" id="gender" name="male" value="male">
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="female" value="Female">
+            <label for="gender">Male</label><br> 
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="Email" id="eail" required><br>
+            <label for="cNum"><b>Contact Number</b></label>
+            <input type="tel" size="15" max="" name="Contact Number" title="cNum" placeholder="(+00)000-0000"/><br>
+        </fieldset>
+        <fieldset>
+            <legend><h2 style="line-height: 0.1">Complete Address</h2></legend>
+            <label for="address">Home Address*</label>
+            <input type="text" size="30" max="25" name="Address 1" title="" placeholder="House/ Apt. Number and Street"/><br>
+            <label for="district">District/ Barangay*</label>
+            <input type="text" size="30" max="25" name="District" title=""><br>
+            <label for="address">City* </label>
+            <select>
+                <option value="Alaminos">Alaminos</option>
+                <option value="Angeles City">Angeles City</option>
+                <option value="Antipolo">Antipolo</option>
+                <option value="Bacolod">Bacolod</option>
+                <option value="	Bacoor">Bacoor</option>
+                <option value="Bago">Bago</option>
+                <option value="Baguio">Baguio</option>
+                <option value="Bais">Bais</option>
+                <option value="Balanga">Balanga</option>
+                <option value="Batac">Batac</option>
+                <option value="Batangas City">Batangas City</option>
+                <option value="Bayawan">Bayawan</option>
+                <option value="	Baybay">Baybay</option>
+                <option value="Bayugan">Bayugan</option>
+                <option value="Biñan">Biñan</option>
+                <option value="Bislig">Bislig</option>
+                <option value="Bogo">Bogo</option>
+                <option value="Butuan">Butuan</option>
+                <option value="Cabadbaran">Cabadbaran</option>
+                <option value="Cabanatuan">Cabanatuan</option>
+                <option value="Cagayan de Oro">Cagayan de Oro</option>
+                <option value="Calamba">Calamba</option>
+                <option value="Calapan">Calapan</option>
+                <option value="Calbayog">Calbayog</option>
+                <option value="Caloocans">Caloocan</option>
+                <option value="Candon">Candon</option>
+                <option value="Canlaon">Canlaon</option>
+                <option value="Carcar">Carcar</option>
+                <option value="Catbalogan">Catbalogan</option>
+                <option value="Cauayan">Cauayan</option>
+                <option value="Cavite City">Cavite City</option>
+                <option value="Cebu City">Cebu City</option>
+                <option value="Cotabato City">Cotabato City</option>
+                <option value="Dagupan">Dagupan</option>
+                <option value="Davao City">Davao City</option>
+                <option value="Dipolog">Dipolog</option>
+                <option value="	Gapan">	Gapan</option>
+                <option value="General Santos">General Santos</option>
+                <option value="Iligan">Iligan</option>
+                <option value="Iloilo City">Iloilo City</option>
+                <option value="Imus">Imus</option>
+                <option value="Laoag">Laoag</option>
+                <option value="Makati">Makati</option>
+                <option value="Manila">Manila</option>
+                <option value="Marikina">Marikina</option>
+                <option value="Naga">Naga</option>
+                <option value="Parañaque">Parañaque</option>
+                <option value="Pasig">Pasig</option>
+                <option value="Puerto Princesa">Puerto Princesa</option>
+                <option value="Quezon City">Quezon City</option>
+                <option value="San Pablo">San Pablo</option>
+                <option value="Tacloban">Tacloban</option>
+                <option value="Tagaytay">Tagaytay</option>
+                <option value="Tarlac City">Tarlac City</option>
+                <option value="Tuguegarao">Tuguegarao</option>
+                <option value="Valenzuela">Valenzuela</option>
+                <option value="Vigan">Vigan</option>
+                <option value="Zamboanga City">Zamboanga City</option>
+              </select><br>
+            <label for="ID">Postal ID* </label>   
+            <input type="text" size="30" max="25" name="Postal code" title=""><br>
+            <label for=city">City* </label>
+            <select>
+                <option value="National Capital Region(NCR)">National Capital Region(NCR)</option>
+                <option value="Cordillera Administrative Region(CAR)">Cordillera Administrative Region(CAR)</option>
+                <option value="Ilocos Region">Ilocos Region</option>
+                <option value="Cagayan Valley">Cagayan Valley</option>
+                <option value="Central Luzon">Central Luzon</option>
+                <option value="Calabarzon">Calabarzon</option>
+                <option value="Southwestern Tagalog Region">Southwestern Tagalog Region</option>                    
+                <option value="Bicol Region">Bicol Region</option>
+                <option value="Western Visayas">Western Visayas</option>
+                <option value="Central Visayas">Central Visayas</option>
+                <option value="Eastern Visayas">Eastern Visayas</option>
+                <option value="Zamboanga Peninsula">Zamboanga Peninsula</option>
+                <option value="Northern Mindanao">Northern Mindanao</option>
+                <option value="Davao Region">Davao Region</option>
+                <option value="Soccsksargen">Soccsksargen</option>
+                <option value="Caraga">Caraga</option>
+                <option value="Bangsamoro">Bangsamoro</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h2 style="line-height: 0.1">Additional Information</h2></legend>     
+            <dt>Please indicate areas to volunteer according to your skills*</dt>
+            <input type="checkbox" id="area1" name="area1" value="Orphan">
+            <label for="area1">Orphanages</label><br>
+            <input type="checkbox" id="area2" name="area2" value="Health">
+            <label for="area2">Hospitals</label><br>
+            <input type="checkbox" id="area3" name="area3" value="Education">
+            <label for="area3">Schools</label><br>
+            <input type="checkbox" id="area4" name="area4" value="Service">
+            <label for="area4">Community Services</label><br>
+            <input type="checkbox" id="area5" name="area5" value="Arts and Entertainment">
+            <label for="area5">Arts and Entertainment</label><br>
+            <input type="checkbox" id="area6" name="area" value="Computer">
+            <label for="area6">Computer Classes</label><br>
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    </body>
+</html>
