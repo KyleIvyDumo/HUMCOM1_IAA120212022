@@ -1,0 +1,39 @@
+body {
+    font-family: Tahoma; 
+    line-height: 1.5; 
+    font-size:25px; 
+    color: #FFFFE0;f;
+    background-image: url(https://i.pinimg.com/564x/59/f5/38/59f53894a55c136a171e87bb4420389d.jpg);
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:50px; 
+    color: #fe007e;
+    text-align: center;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace; 
+    color: #fc3eaa;
+    text-align: center;
+}
+a, p{
+    color: #FFFFE0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+dt{
+    color:#ff69ce;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+footer{
+    text-align: center;
+}
+ 
+
+   
