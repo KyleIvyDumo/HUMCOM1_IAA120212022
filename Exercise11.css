@@ -38,6 +38,13 @@ div{
     margin-top: 1rem;
     padding:12px;
 }
+article{
+    width:100%;
+    height:auto;
+    border: 1px solid orange;
+    margin-top: 1rem;
+    padding:35px;
+}
 .content{
     height:80%; width:100%;
     color: white;
