@@ -1,0 +1,108 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: #600000;
+    font-family: Century Gothic;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    border-radius:10px;
+}
+.container{
+    display: block;
+    width:60%; margin:auto;
+    padding:1rem;
+}
+#contain_header{
+    width:100%;
+    height:auto;
+    display: flex;
+    border: 1px solid orange;
+}
+#head{
+    height:100px; width:20%;
+    float:left;
+    padding:50px;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/84/62/kd-logo-monogram-isolated-on-circle-element-vector-29108462.jpg");
+    background-size:cover; background-position: 20%;
+    mix-blend-mode: lighten;
+    border: 1px solid orange;
+    margin: 5%;
+}
+#navigation{
+    height:80px; width:80%;
+    margin: 1rem;
+    margin-top: 1rem;
+    padding:12px;
+}
+.content{
+    height:80%; width:100%;
+    color: white;
+    border: 1px solid orange;
+    padding:35px;
+}
+.card-body{
+    background-color: orange;
+    padding:5px; border-radius:0 0 20px 20px;
+    height:35%; color:rgb(0, 0, 0); 
+}
+.content:hover{
+    transform:scale(1.025);
+    transition:all 0.2s;
+}
+.footer{
+    height:150px; width:100%;
+    border: 1px solid orange;
+    margin: 1rem 0 5rem 0; float:left;
+    padding:12px;	
+    color: white;
+}
+h1{
+    font-size:20pt;
+    text-transform:uppercase; font-weight:bolder;
+    color: whitesmoke;
+}
+p{
+    font-size: 0.9rem;
+}
+.container {
+  padding: 2px 16px;
+
+}
+#img{
+    width:100%; height:70%;
+    border-radius: 10px 10px 0 0;object-fit:cover;
+}
+.menu{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.menu a{
+    display: inline-flex;
+    height:45px;
+    padding: 0.8rem 1rem;
+    margin: 0 1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem; font-weight:400;
+    color: #ffb703;
+    background-color: transparent;
+    transition: all 0.2s;
+}
+#active{
+    background-color: #ffb703;
+    color: #000000;font-weight:800;
+}
+.menu a:active {
+    color: #000000;
+    background-color:#ffb703;
+}
+#footer p, #footer h1{
+    color:white;
+    text-align:center;
+}
