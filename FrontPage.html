@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Front Page- Kyle Ivy S. Dumo</title>
+    <meta charset="utf-8" >
+    <meta name="author" content="Kyle Ivy Dumo" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+
+    <header>
+      <a href="#" class="brand">Mixed-Ly</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Gallery</a>
+          <a href="#">Location</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <video class="video-slide active" src="2.mp4" autoplay muted loop></video>
+      <div class="content active">
+        <h1>We treat coffee<br><span>OBSESSION</span></h1>
+        <p>There’s nothing quite like that first cup of coffee in the A.M. A few sips of the aromatic magic stuff later and you're suddenly awake and motivated to tackle your day head on. It's truly the best.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+  
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("active");
+      navigation.classList.toggle("active");
+    });
+
+    </script>
+
+  </body>
+</html>
