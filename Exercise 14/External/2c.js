@@ -1,0 +1,1 @@
+console.log("Kyle Ivy Suyat Dumo\nBS Information Technology\nFirst Year\nHUMCOM1-IAA1\nIntroduction to JavaScript");
